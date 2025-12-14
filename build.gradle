@@ -30,6 +30,9 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-kafka-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+    // https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-client
+    implementation 'org.apache.hadoop:hadoop-client:3.4.2'
 }
 
 tasks.named('test') {
